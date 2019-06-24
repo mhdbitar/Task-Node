@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrap": "node cron.js"
+  },
+  "keywords": [
+    "NodeJs"
+  ],
+  "author": "Mophamad Bita",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "image-downloader": "^3.4.2",
+    "node-cron": "^2.0.3",
+    "rimraf": "^2.6.3"
+  }
+}
